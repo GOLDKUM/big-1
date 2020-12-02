@@ -5,7 +5,7 @@ public class Homework3 {
 	int computer, you;
 	Scanner sc = new Scanner(System.in);
 	while(true) {
-	  System.out.print("가위(0),바위(1),보(2) 중 하나선택(종료를 원하시면 -1) : ");
+	  System.out.print("가위(0),바위(1),보(2), 중 하나(종료는 -1) : ");
 	  you = sc.nextInt();
 	  if(you==-1) {
 		  break;
