@@ -1,21 +1,21 @@
 package com.lec.ex4_boxrect;
-//¹Ú½º - °¡·Î, ¼¼·Î, ±íÀÌ     Á÷»ç°¢Çü - °¡·Î, ¼¼·Î, 0
+//ë°•ìŠ¤ - ê°€ë¡œ, ì„¸ë¡œ, ê¹Šì´     ì§ì‚¬ê°í˜• - ê°€ë¡œ, ì„¸ë¡œ, 0
 public class BoxOrRect {
 	private int width;
 	private int height;
 	private int depth;
-	private int volume; // ºÎÇÇ³ª ³ĞÀÌ
+	private int volume; // ë¶€í”¼ë‚˜ ë„“ì´
 	public BoxOrRect() {}
-	public BoxOrRect(int width, int height, int depth) { // ¹Ú½º°´Ã¼ »ı¼º½Ã È£ÃâÇÒ »ı¼ºÀÚ
+	public BoxOrRect(int width, int height, int depth) { // ë°•ìŠ¤ê°ì²´ ìƒì„±ì‹œ í˜¸ì¶œí•  ìƒì„±ì
 		this.width = width; this.height = height; this.depth = depth;
 	}
 	public BoxOrRect(int width, int height) {
-		this.width=width; this.height = height; // Á÷»ç°¢Çü °´Ã¼ »ı¼º½Ã È£ÃâÇÒ »ı¼ºÀÚ
+		this.width=width; this.height = height; // ì§ì‚¬ê°í˜• ê°ì²´ ìƒì„±ì‹œ í˜¸ì¶œí•  ìƒì„±ì
 	}
 	public void calNsetVolume() {
-		if(depth==0) { // Á÷»ç°¢ÇüÀÇ °æ¿ì volume = width * height
+		if(depth==0) { // ì§ì‚¬ê°í˜•ì˜ ê²½ìš° volume = width * height
 			volume = width * height;
-		}else {        // ¹Ú½ºÀÇ °æ¿ì volume = width*height*depth
+		}else {        // ë°•ìŠ¤ì˜ ê²½ìš° volume = width*height*depth
 			volume = width*height*depth;
 		}//if
 	}//calVolume

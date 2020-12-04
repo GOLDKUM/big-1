@@ -6,15 +6,15 @@ public class Ex03 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int su = -5;
-		System.out.println(su+"ÀÇ Àı´ë°ªÀº "+Arithmetic.abs(su));
+		System.out.println(su+"ì˜ ì ˆëŒ€ê°’ì€ "+Arithmetic.abs(su));
 		
-		Arithmetic ar = new Arithmetic(); // ArithmeticÇü °´Ã¼
+		Arithmetic ar = new Arithmetic(); // Arithmeticí˜• ê°ì²´
 		int sum = ar.sum(10,51);
-		System.out.println("ÇÕÀº "+sum);
+		System.out.println("í•©ì€ "+sum);
 		System.out.println(ar.evenOdd(sum));
 		System.out.println("**********************");
 		sum = ar.sum(50);
-		System.out.println("ÇÕÀº "+sum);
+		System.out.println("í•©ì€ "+sum);
 		System.out.println(ar.evenOdd(sum));
 	}
 }

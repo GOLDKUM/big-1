@@ -1,10 +1,10 @@
 package com.lec.ex3_account;
-/* ÀºÇà°èÁÂÅ¬·¡½º
- *  µ¥ÀÌÅÍ : °èÁÂ¹øÈ£ (accountNo:String)
- *         ¿¹±İÁÖ   (ownerName:String) 
- *         ÀÜ¾×      (balance:int)
- *  ¸Ş¼Òµå : ¿¹±İÇÑ´Ù (void deposit(int money))new Account("110-352","È«",10)
- *         ÀÎÃâÇÏ´Ù (void withdraw(int money))new Account("110-352","È«")
+/* ì€í–‰ê³„ì¢Œí´ë˜ìŠ¤
+ *  ë°ì´í„° : ê³„ì¢Œë²ˆí˜¸ (accountNo:String)
+ *         ì˜ˆê¸ˆì£¼   (ownerName:String) 
+ *         ì”ì•¡      (balance:int)
+ *  ë©”ì†Œë“œ : ì˜ˆê¸ˆí•œë‹¤ (void deposit(int money))new Account("110-352","í™",10)
+ *         ì¸ì¶œí•˜ë‹¤ (void withdraw(int money))new Account("110-352","í™")
  */
 public class Account {
 	private String accountNo;
@@ -20,19 +20,19 @@ public class Account {
 		this.ownerName = ownerName;
 		this.balance = balance;
 	}
-	public void deposit(int money) { // ¿¹±İÀº ¹«Á¶°Ç
+	public void deposit(int money) { // ì˜ˆê¸ˆì€ ë¬´ì¡°ê±´
 		balance += money;
 	}
-	public void withdraw(int money) { // ÀÜ¾× ºÎÁ·½Ã "¶¼³¢" Ãâ·Â
+	public void withdraw(int money) { // ì”ì•¡ ë¶€ì¡±ì‹œ "ë–¼ë¼" ì¶œë ¥
 		if(balance >= money) {
 			balance -= money; // balance = balance - money;
 		}else {
-			System.out.println("ÀÜ¾× ºÎÁ·. ¶¼³¢");
+			System.out.println("ì”ì•¡ ë¶€ì¡±. ë–¼ë¼");
 		}
 	}
 	public void info() {
-		System.out.println("°èÁÂ¹øÈ£:"+accountNo+", "+ownerName+
-						"´Ô ÀÜ¾×Àº "+balance);
+		System.out.println("ê³„ì¢Œë²ˆí˜¸:"+accountNo+", "+ownerName+
+						"ë‹˜ ì”ì•¡ì€ "+balance);
 	}
 	// accountNo, ownerName, balance setter & getter
 	public void setAccountNo(String accountNo) {

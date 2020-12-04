@@ -10,8 +10,8 @@ public class CarMain {
 		myPorsche.park();
 		myPorsche.race();
 		myPorsche.setColor("red");// myPorsche.color = "red";
-		System.out.println("³» Æ÷¸£½¦ »ö»ó : "+myPorsche.getColor());
-		System.out.println("³Ê Æ÷¸£½¦ »ö»ó : "+yourPorsche.getColor());
-		System.out.println("³» Æ÷¸£½¦ ¹è±â·® : " +myPorsche.getCc());
+		System.out.println("ë‚´ í¬ë¥´ì‰ ìƒ‰ìƒ : "+myPorsche.getColor());
+		System.out.println("ë„ˆ í¬ë¥´ì‰ ìƒ‰ìƒ : "+yourPorsche.getColor());
+		System.out.println("ë‚´ í¬ë¥´ì‰ ë°°ê¸°ëŸ‰ : " +myPorsche.getCc());
 	}
 }

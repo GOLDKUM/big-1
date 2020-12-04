@@ -8,19 +8,19 @@ public class Ex04 {
 		printCh('-', 30);
 	}
 	private static void printCh(char ch, int count) {
-		for(int cnt=1 ; cnt<=count ; cnt++) {//ch°¡ count°³ ÀÖ´Â ¶óÀÎ
+		for(int cnt=1 ; cnt<=count ; cnt++) {//chê°€ countê°œ ìžˆëŠ” ë¼ì¸
 			System.out.print(ch);
 		}
 		System.out.println();
 	}
 	private static void printCh(char ch) {
-		for(int cnt=1 ; cnt<=20 ; cnt++) { // ch°¡ 20°³ ÀÖ´Â ¶óÀÎ
+		for(int cnt=1 ; cnt<=20 ; cnt++) { // chê°€ 20ê°œ ìžˆëŠ” ë¼ì¸
 			System.out.print(ch);
 		}
-		System.out.println();//°³Çà
+		System.out.println();//ê°œí–‰
 	}
 	private static void printCh() {
-		for(int cnt=1 ; cnt<=20 ; cnt++) { // *ÀÌ 20°³ ÀÖ´Â ¶óÀÎ
+		for(int cnt=1 ; cnt<=20 ; cnt++) { // *ì´ 20ê°œ ìžˆëŠ” ë¼ì¸
 			System.out.print('*');
 		}
 		System.out.println();

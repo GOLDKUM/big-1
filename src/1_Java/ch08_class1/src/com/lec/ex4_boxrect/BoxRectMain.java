@@ -1,11 +1,11 @@
 package com.lec.ex4_boxrect;
 public class BoxRectMain {
 	public static void main(String[] args) {
-		BoxOrRect box = new BoxOrRect(5,6,10); // 3Â÷¿ø ¹Ú½º
-		BoxOrRect rect = new BoxOrRect(10,5);  // 2Â÷¿ø ³×¸ğ
+		BoxOrRect box = new BoxOrRect(5,6,10); // 3ì°¨ì› ë°•ìŠ¤
+		BoxOrRect rect = new BoxOrRect(10,5);  // 2ì°¨ì› ë„¤ëª¨
 		box.calNsetVolume();
 		rect.calNsetVolume();
-		System.out.println("¹Ú½º ºÎÇÇ : "+box.getVolume());
-		System.out.println("rect ³ĞÀÌ : "+rect.getVolume());
+		System.out.println("ë°•ìŠ¤ ë¶€í”¼ : "+box.getVolume());
+		System.out.println("rect ë„“ì´ : "+rect.getVolume());
 	}//main
 }

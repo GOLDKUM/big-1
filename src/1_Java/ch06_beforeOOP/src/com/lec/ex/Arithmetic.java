@@ -1,21 +1,21 @@
 package com.lec.ex;
 public class Arithmetic {
 	public int sum(int to) {
-		int result = 0; //´©ÀûÇØ¼­ Àü´ŞÇÒ º¯¼ö
+		int result = 0; //ëˆ„ì í•´ì„œ ì „ë‹¬í•  ë³€ìˆ˜
 		for(int i=1 ; i<=to ; i++) {
 			result = result + i; // result += i;
 		}
 		return result;
 	}
 	public int sum(int from, int to) {// from=1, to=100
-		int result = 0; //´©ÀûÇØ¼­ Àü´ŞÇÒ º¯¼ö
+		int result = 0; //ëˆ„ì í•´ì„œ ì „ë‹¬í•  ë³€ìˆ˜
 		for(int i=from ; i<=to ; i++) {
 			result = result + i; // result += i;
 		}
 		return result;
 	}
 	public String evenOdd(int value) {
-		String result = value%2 ==0 ? "Â¦¼öÀÔ´Ï´Ù":"È¦¼öÀÔ´Ï´Ù";
+		String result = value%2 ==0 ? "ì§ìˆ˜ì…ë‹ˆë‹¤":"í™€ìˆ˜ì…ë‹ˆë‹¤";
 		return result;
 	}
 	public static int abs(int value) {

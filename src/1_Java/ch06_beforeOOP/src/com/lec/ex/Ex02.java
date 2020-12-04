@@ -1,32 +1,32 @@
 package com.lec.ex;
 public class Ex02 {
 	private static int sum(int to) {
-		int result = 0; //´©ÀûÇØ¼­ Àü´ŞÇÒ º¯¼ö
+		int result = 0; //ëˆ„ì í•´ì„œ ì „ë‹¬í•  ë³€ìˆ˜
 		for(int i=1 ; i<=to ; i++) {
 			result = result + i; // result += i;
 		}
 		return result;
 	}
 	private static int sum(int from, int to) {// from=1, to=100
-		int result = 0; //´©ÀûÇØ¼­ Àü´ŞÇÒ º¯¼ö
+		int result = 0; //ëˆ„ì í•´ì„œ ì „ë‹¬í•  ë³€ìˆ˜
 		for(int i=from ; i<=to ; i++) {
 			result = result + i; // result += i;
 		}
 		return result;
 	}
 	private static String evenOdd(int value) {
-		String result = value%2 ==0 ? "Â¦¼öÀÔ´Ï´Ù":"È¦¼öÀÔ´Ï´Ù";
+		String result = value%2 ==0 ? "ì§ìˆ˜ì…ë‹ˆë‹¤":"í™€ìˆ˜ì…ë‹ˆë‹¤";
 		return result;
 	}
 	public static void main(String[] args) {
 		int sum = sum(10);
-		System.out.println("ÇÕÀº "+sum);
+		System.out.println("í•©ì€ "+sum);
 		System.out.println(evenOdd(sum));
 		sum = sum(1,100);
-		System.out.println("ÇÕÀº "+sum);
+		System.out.println("í•©ì€ "+sum);
 		System.out.println(evenOdd(sum));
 		sum = sum(10,51);
-		System.out.println("ÇÕÀº "+sum);
+		System.out.println("í•©ì€ "+sum);
 		System.out.println(evenOdd(sum));
 	}
 	

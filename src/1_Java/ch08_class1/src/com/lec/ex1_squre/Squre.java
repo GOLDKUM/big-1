@@ -4,17 +4,17 @@ package com.lec.ex1_squre;
 // Scanner sc = new Scanner(System.in)
 public class Squre {
 	private int side;
-	public Squre() { // ¸Å°³º¯¼ö ¾ø´Â »ı¼ºÀÚ => »ı¼ºÀÚ ¿À¹ö·Îµù
-		System.out.println("¸Å°³º¯¼ö ¾ø´Â »ı¼ºÀÚ È£ÃâµÊ");
+	public Squre() { // ë§¤ê°œë³€ìˆ˜ ì—†ëŠ” ìƒì„±ì => ìƒì„±ì ì˜¤ë²„ë¡œë”©
+		System.out.println("ë§¤ê°œë³€ìˆ˜ ì—†ëŠ” ìƒì„±ì í˜¸ì¶œë¨");
 	} 
-	public Squre(int side) {//¸Å°³º¯¼ö ÀÖ´Â »ı¼ºÀÚ
+	public Squre(int side) {//ë§¤ê°œë³€ìˆ˜ ìˆëŠ” ìƒì„±ì
 		this.side = side;
-		System.out.println("¸Å°³º¯¼ö ÀÖ´Â »ı¼ºÀÚ È£ÃâµÊ");
+		System.out.println("ë§¤ê°œë³€ìˆ˜ ìˆëŠ” ìƒì„±ì í˜¸ì¶œë¨");
 	}
 	public int area() {
 		return side * side;
 	}
-	public int getSide() { // ~.getSide() »ç¿ë
+	public int getSide() { // ~.getSide() ì‚¬ìš©
 		return side;
 	}
 	public void setSide(int side) {// ~.setSide(10)

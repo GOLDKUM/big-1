@@ -2,18 +2,18 @@ package com.lec.ex0_janmuri;
 class PersonInfo{
 	private String name;
 	private int age;      
-	private char gender;  //¼ºº° '³²', '¿©'
-	public PersonInfo() {}// »ı¼ºÀÚ°¡ ¾øÀ» °æ¿ì¸¸ µğÆúÆ® »ı¼ºÀÚ´Â JVMÀÌ »ı¼ºÇÔ
+	private char gender;  //ì„±ë³„ 'ë‚¨', 'ì—¬'
+	public PersonInfo() {}// ìƒì„±ìê°€ ì—†ì„ ê²½ìš°ë§Œ ë””í´íŠ¸ ìƒì„±ìëŠ” JVMì´ ìƒì„±í•¨
 	public PersonInfo(String name, int age, char gender) {
 		this.name   = name;
 		this.age    = age;
 		this.gender = gender;
-	} // »ı¼ºÀÚ ¿À¹ö·Îµù
+	} // ìƒì„±ì ì˜¤ë²„ë¡œë”©
 	public void print() {
-		System.out.println("ÀÌ¸§="+name+"\t³ªÀÌ="+age+"\t¼ºº°="+gender);
+		System.out.println("ì´ë¦„="+name+"\të‚˜ì´="+age+"\tì„±ë³„="+gender);
 	}
 	public String infoString() {
-		String result = "ÀÌ¸§="+name+"\t³ªÀÌ="+age+"\t¼ºº°="+gender;
+		String result = "ì´ë¦„="+name+"\të‚˜ì´="+age+"\tì„±ë³„="+gender;
 		return result;
 	}
 	public String getName() {
@@ -39,12 +39,12 @@ class PersonInfo{
 public class PersonInfoTestMain {
 	public static void main(String[] args) {
 		int[] iArr = {10,20,30};
-		PersonInfo[] person = { new PersonInfo("È«±æµ¿", 20, '³²'),
-							new PersonInfo("È«±æ¼ø", 22, '¿©'),
-							new PersonInfo()}; // ¹è¿­
-		person[2].setName("È«±æ¼÷");
+		PersonInfo[] person = { new PersonInfo("í™ê¸¸ë™", 20, 'ë‚¨'),
+							new PersonInfo("í™ê¸¸ìˆœ", 22, 'ì—¬'),
+							new PersonInfo()}; // ë°°ì—´
+		person[2].setName("í™ê¸¸ìˆ™");
 		person[2].setAge(21);
-		person[2].setGender('¿©');
+		person[2].setGender('ì—¬');
 		for(PersonInfo p : person) {
 			p.print();
 			System.out.println(p.infoString());

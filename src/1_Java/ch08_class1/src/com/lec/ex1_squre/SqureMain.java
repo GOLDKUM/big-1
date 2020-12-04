@@ -4,11 +4,11 @@ public class SqureMain {
 	public static void main(String[] args) {
 		Squre s1 = new Squre();
 		Squre s2 = new Squre(10);
-		System.out.println("s1ÀÇ ÇÑº¯ÀÇ ±æÀÌ´Â "+s1.getSide());
-		System.out.println("s1ÀÇ ³ĞÀÌ´Â "+s1.area());
-		System.out.println("s2ÀÇ ÇÑº¯ÀÇ ±æÀÌ´Â "+s2.getSide());
-		System.out.println("s2ÀÇ ³ĞÀÌ´Â "+s2.area());
+		System.out.println("s1ì˜ í•œë³€ì˜ ê¸¸ì´ëŠ” "+s1.getSide());
+		System.out.println("s1ì˜ ë„“ì´ëŠ” "+s1.area());
+		System.out.println("s2ì˜ í•œë³€ì˜ ê¸¸ì´ëŠ” "+s2.getSide());
+		System.out.println("s2ì˜ ë„“ì´ëŠ” "+s2.area());
 		s2.setSide(5);
-		System.out.println("s2ÀÇ ³ĞÀÌ´Â "+s2.area());
+		System.out.println("s2ì˜ ë„“ì´ëŠ” "+s2.area());
 	}
 }

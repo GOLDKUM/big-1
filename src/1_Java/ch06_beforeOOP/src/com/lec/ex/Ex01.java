@@ -1,23 +1,23 @@
 package com.lec.ex;
 public class Ex01 {
 	public static void main(String[] args) {
-		int sum = 0; //´©Àûº¯¼ö
+		int sum = 0; //ëˆ„ì ë³€ìˆ˜
 		for(int i=1 ; i<=10 ; i++) {
 			sum += i;
 		}
-		System.out.println("ÇÕÀº "+sum);
-		System.out.println((sum%2==0)? "Â¦¼öÀÔ´Ï´Ù":"È¦¼öÀÔ´Ï´Ù");
-		sum = 0; //´©Àûº¯¼ö
+		System.out.println("í•©ì€ "+sum);
+		System.out.println((sum%2==0)? "ì§ìˆ˜ì…ë‹ˆë‹¤":"í™€ìˆ˜ì…ë‹ˆë‹¤");
+		sum = 0; //ëˆ„ì ë³€ìˆ˜
 		for(int i=1 ; i<=50 ; i++) {
 			sum += i;
 		}
-		System.out.println("ÇÕÀº "+sum);
-		System.out.println((sum%2==0)? "Â¦¼öÀÔ´Ï´Ù":"È¦¼öÀÔ´Ï´Ù");
-		sum = 0; //´©Àûº¯¼ö
+		System.out.println("í•©ì€ "+sum);
+		System.out.println((sum%2==0)? "ì§ìˆ˜ì…ë‹ˆë‹¤":"í™€ìˆ˜ì…ë‹ˆë‹¤");
+		sum = 0; //ëˆ„ì ë³€ìˆ˜
 		for(int i=10 ; i<=50 ; i++) {
 			sum += i;
 		}
-		System.out.println("ÇÕÀº "+sum);
-		System.out.println((sum%2==0)? "Â¦¼öÀÔ´Ï´Ù":"È¦¼öÀÔ´Ï´Ù");
+		System.out.println("í•©ì€ "+sum);
+		System.out.println((sum%2==0)? "ì§ìˆ˜ì…ë‹ˆë‹¤":"í™€ìˆ˜ì…ë‹ˆë‹¤");
 	}
 }

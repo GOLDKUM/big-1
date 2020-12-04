@@ -2,20 +2,23 @@ package com.lec.ex1_student;
 
 public class StudentTestMain {
 	public static void main(String[] args) {
-//		Student s1 = new Student("Á¤¿ì¼º", 90, 90, 90);
-//		Student s2 = new Student("±èÇÏ´Ã", 81, 90, 90);
-//		Student s3 = new Student("È²Á¤¹Î", 91, 90, 90);
-//		Student s4 = new Student("°­µ¿¿ø", 80, 90, 90);
-//		Student s5 = new Student("À¯¾ÆÀÎ", 70, 90, 90);
-		Student[] student = {new Student("Á¤¿ì¼º", 90, 90, 90),
-							new Student("±èÇÏ´Ã", 81, 90, 90),
-							new Student("È²Á¤¹Î", 91, 90, 90),
-							new Student("°­µ¿¿ø", 80, 90, 90),
-							new Student("À¯¾ÆÀÎ", 70, 90, 90)};
-		String[] title = {"ÀÌ¸§","±¹¾î","¿µ¾î","¼öÇĞ","ÃÑÁ¡","Æò±Õ"};
-		System.out.println("¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á");
-		System.out.println("\t\t\t\t¼ºÀûÇ¥");
+//		Student s1 = new Student("ì •ìš°ì„±", 90, 90, 90);
+//		Student s2 = new Student("ê¹€í•˜ëŠ˜", 81, 90, 90);
+//		Student s3 = new Student("í™©ì •ë¯¼", 91, 90, 90);
+//		Student s4 = new Student("ê°•ë™ì›", 80, 90, 90);
+//		Student s5 = new Student("ìœ ì•„ì¸", 70, 90, 90);
+		Student[] student = {new Student("ì •ìš°ì„±", 90, 90, 90),
+							new Student("ê¹€í•˜ëŠ˜", 81, 90, 90),
+							new Student("í™©ì •ë¯¼", 91, 90, 90),
+							new Student("ê°•ë™ì›", 80, 90, 90),
+							new Student("ìœ ì•„ì¸", 70, 90, 90)};
+		String[] title = {"ì´ë¦„","êµ­ì–´","ì˜ì–´","ìˆ˜í•™","ì´ì ","í‰ê· "};
+		System.out.println("â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– ");
+		System.out.println("\t\t\t\tì„±ì í‘œ");
 		System.out.println("\t--------------------------------------------------");
+//		for(int i=0 ; i<title.length ; i++) {
+//			System.out.print("\t "+title[i]);
+//		}
 		for(String t : title) {
 			System.out.print("\t"+t);
 		}
@@ -24,7 +27,7 @@ public class StudentTestMain {
 		for(Student s : student) {
 			s.print();
 		}
-		System.out.println("¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á");
+		System.out.println("â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– ");
 		
 	}
 }

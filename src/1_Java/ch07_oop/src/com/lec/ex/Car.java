@@ -2,25 +2,25 @@ package com.lec.ex;
 // Car myPorsche = new Car();
 // Scanner sc = new Scanner(~);
 public class Car {
-	private String color;  // µ¥ÀÌÅÍ(private)µé
+	private String color;  // ë°ì´í„°(private)ë“¤
 	private int cc;
 	private int speed;
-	public Car() { // »ı¼ºÀÚ ÇÔ¼ö = ¸®ÅÏÅ¸ÀÔÀÌ ¾ø°í Å¬·¡½º¸í°ú °°Àº ÀÌ¸§ÀÇ ¸Ş¼Òµå
-		// µğÆúÆ®»ı¼ºÀÚÇÔ¼ö´Â »ı¼ºÀÚÇÔ¼ö°¡ ¾øÀ» ¶§ JVMÀÌ ÀÚµ¿»ı¼º 
-		// °´Ã¼º¯¼ö°¡ »ı¼ºµÉ ¶§ ÀÚµ¿ È£Ãâ
+	public Car() { // ìƒì„±ì í•¨ìˆ˜ = ë¦¬í„´íƒ€ì…ì´ ì—†ê³  í´ë˜ìŠ¤ëª…ê³¼ ê°™ì€ ì´ë¦„ì˜ ë©”ì†Œë“œ
+		// ë””í´íŠ¸ìƒì„±ìí•¨ìˆ˜ëŠ” ìƒì„±ìí•¨ìˆ˜ê°€ ì—†ì„ ë•Œ JVMì´ ìë™ìƒì„± 
+		// ê°ì²´ë³€ìˆ˜ê°€ ìƒì„±ë  ë•Œ ìë™ í˜¸ì¶œ
 		cc = 1000;
 	}
-	public void drive() {   // ¸Ş¼Òµå(public)µé
+	public void drive() {   // ë©”ì†Œë“œ(public)ë“¤
 		speed = 60;
-		System.out.println("¿îÀüÇÑ´Ù Áö±İ ¼Óµµ : "+speed);
+		System.out.println("ìš´ì „í•œë‹¤ ì§€ê¸ˆ ì†ë„ : "+speed);
 	}
 	public void park() {
 		speed = 0;
-		System.out.println("ÁÖÂ÷ÇÑ´Ù Áö±İ ¼Óµµ : "+speed);
+		System.out.println("ì£¼ì°¨í•œë‹¤ ì§€ê¸ˆ ì†ë„ : "+speed);
 	}
 	public void race() {
 		speed = 120;
-		System.out.println("·¹ÀÌ½ÌÇÑ´Ù. Áö±İ ¼Óµµ : "+speed);
+		System.out.println("ë ˆì´ì‹±í•œë‹¤. ì§€ê¸ˆ ì†ë„ : "+speed);
 	}
 	// ~.setColor("red")
 	public void setColor(String color) {

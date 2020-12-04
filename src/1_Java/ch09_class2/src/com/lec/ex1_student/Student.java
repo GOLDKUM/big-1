@@ -13,7 +13,7 @@ public class Student {
 	tot = kor+eng+mat;
 	avg = tot/3.0;
   }
-  // s.print() -> Á¤¿ì¼º 90 90 90 270 90.0 Ãâ·Â
+  // s.print() -> ì •ìš°ì„± 90 90 90 270 90.0
   public void print() {
 	System.out.printf("\t %s \t %d \t %d \t %d \t %d \t %.1f\n",
 			             name, kor,  eng,   mat,  tot,  avg);
@@ -24,7 +24,7 @@ public class Student {
 			  						name, kor, eng, mat, tot, avg);
 	return result;
   }
-  // getterµé & setterµé
+  // getterë“¤ & setterë“¤
   public String getName() {
 	return name;
   }

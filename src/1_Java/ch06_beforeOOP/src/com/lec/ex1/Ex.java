@@ -5,6 +5,6 @@ import com.lec.ex.Arithmetic;
 public class Ex {
 	public static void main(String[] args) {
 		Arithmetic ar = new Arithmetic();
-		System.out.println("ÇÕÀº "+ar.sum(20));
+		System.out.println("í•©ì€ "+ar.sum(20));
 	}
 }

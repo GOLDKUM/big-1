@@ -7,7 +7,7 @@ public class Man {
 	private int height;
 	private int weight;
 	private String tel;
-	public Man() {} // µğÆúÆ® »ı¼ºÀÚ
+	public Man() {} // ë””í´íŠ¸ ìƒì„±ì
 	public Man(int age, int height, int weight, String tel) {
 		this.age = age;		  this.height = height;
 		this.weight = weight; this.tel = tel;
@@ -18,12 +18,12 @@ public class Man {
 	public Man(int age, String tel) {
 		this.age = age; this.tel = tel;
 	}
-	// BMIÁö¼ö¸¦ ¹İÈ¯ÇÏ´Â ¸Ş¼Òµå
+	// BMIì§€ìˆ˜ë¥¼ ë°˜í™˜í•˜ëŠ” ë©”ì†Œë“œ
 	public double calculateBMI() {
 		double result = weight / ((height*0.01)*(height*0.01));
 		return result;
 	}
-	// (age, height, weight, tel)ÀÇ setter & getter
+	// (age, height, weight, tel)ì˜ setter & getter
 	public void setAge(int age) {this.age = age;}
 	public int getAge() {return age;}
 	public void setHeight(int height) {this.height = height;}

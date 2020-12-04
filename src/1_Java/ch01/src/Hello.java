@@ -1,7 +1,7 @@
-// ÇÑÁÙÂ¥¸® ÁÖ¼®(»ç¶÷¸¸ º¸°í ÄÄÇ»ÅÍ´Â ÇØ¼®ÇÏÁö ¾ÊÀ½)
+// í•œì¤„ì§œë¦¬ ì£¼ì„(ì‚¬ëžŒë§Œ ë³´ê³  ì»´í“¨í„°ëŠ” í•´ì„í•˜ì§€ ì•ŠìŒ)
 /*
- ¿©·¯ÁÙ ÁÖ¼®Àº
- ¿©·¯ÁÙ ÁÖ¼®
+ ì—¬ëŸ¬ì¤„ ì£¼ì„ì€
+ ì—¬ëŸ¬ì¤„ ì£¼ì„
  */
 public class Hello {
 	public static void main(String[] args) {

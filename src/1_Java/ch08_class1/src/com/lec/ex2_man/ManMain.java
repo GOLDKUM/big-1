@@ -10,14 +10,14 @@ public class ManMain {
 		kang.setHeight(180); kang.setWeight(65);
 		double biman = kim.calculateBMI();
 		if(biman>24) {
-			System.out.println("kim�� ���̴� �ǰ� ����");
+			System.out.println("kim은 비만이니 건강 조심");
 		}else {
-			System.out.println("kim�� ���̾�Ʈ ����");
+			System.out.println("kim은 다이어트 금지");
 		}
 		biman = yi.calculateBMI();
-		System.out.println(biman>24? "�ǰ����ɴ��̾�Ʈ":"���̾�Ʈ ����");
+		System.out.println(biman>24? "건강조심다이어트":"다이어트 금지");
 		biman = kang.calculateBMI();
-		System.out.println(biman>24? "�ǰ����ɴ��̾�Ʈ":"���̾�Ʈ ����");
+		System.out.println(biman>24? "건강조심다이어트":"다이어트 금지");
 	}
 }
 

@@ -2,23 +2,23 @@ package com.lec.ex1_student;
 
 public class StudentTestMain2 {
 	public static void main(String[] args) {
-//		Student s1 = new Student("Á¤¿ì¼º", 90, 90, 90);
-//		Student s2 = new Student("±èÇÏ´Ã", 81, 90, 90);
-//		Student s3 = new Student("È²Á¤¹Î", 91, 90, 90);
-//		Student s4 = new Student("°­µ¿¿ø", 80, 90, 90);
-//		Student s5 = new Student("À¯¾ÆÀÎ", 70, 90, 90);
-		Student[] student = {new Student("Á¤¿ì¼º", 90, 90, 90),
-							new Student("±èÇÏ´Ã", 81, 90, 90),
-							new Student("È²Á¤¹Î", 91, 90, 90),
-							new Student("°­µ¿¿ø", 80, 90, 90),
-							new Student("À¯¾ÆÀÎ", 70, 90, 90)};
-		String[] title = {"ÀÌ¸§","±¹¾î","¿µ¾î","¼öÇĞ","ÃÑÁ¡","Æò±Õ"};
-		// °¢ °ú¸ñº° ÃÑÁ¡µéÀ» ´©Àû(0:±¹¾î´©Àû, 1 index:¿µ¾î´©Àû, 2:¼öÇĞ´©Àû, 3:ÃÑÁ¡´©Àû, 4:Æò±Õ´©Àû)
-		// ¹è¿­ tot¿Í avg¿£ 0ÀÌ³ª 0.0À¸·Î ÃÊ±âÈ­
+//		Student s1 = new Student("ì •ìš°ì„±", 90, 90, 90);
+//		Student s2 = new Student("ê¹€í•˜ëŠ˜", 81, 90, 90);
+//		Student s3 = new Student("í™©ì •ë¯¼", 91, 90, 90);
+//		Student s4 = new Student("ê°•ë™ì›", 80, 90, 90);
+//		Student s5 = new Student("ìœ ì•„ì¸", 70, 90, 90);
+		Student[] student = {new Student("ì •ìš°ì„±", 90, 90, 90),
+							new Student("ê¹€í•˜ëŠ˜", 81, 90, 90),
+							new Student("í™©ì •ë¯¼", 91, 90, 90),
+							new Student("ê°•ë™ì›", 80, 90, 90),
+							new Student("ìœ ì•„ì¸", 70, 90, 90)};
+		String[] title = {"ì´ë¦„","êµ­ì–´","ì˜ì–´","ìˆ˜í•™","ì´ì ","í‰ê· "};
+		// ê° ê³¼ëª©ë³„ ì´ì ë“¤ì„ ëˆ„ì (0:êµ­ì–´ëˆ„ì , 1 index:ì˜ì–´ëˆ„ì , 2:ìˆ˜í•™ëˆ„ì , 3:ì´ì ëˆ„ì , 4:í‰ê· ëˆ„ì )
+		// ë°°ì—´ totì™€ avgì—” 0ì´ë‚˜ 0.0ìœ¼ë¡œ ì´ˆê¸°í™”
 		int[] tot = new int[5]; 
-		double[] avg = new double[5]; // °¢ °ú¸ñº° Æò±Õµé ÀúÀå 
-		System.out.println("¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á");
-		System.out.println("\t\t\t\t¼ºÀûÇ¥");
+		double[] avg = new double[5]; // ê° ê³¼ëª©ë³„ í‰ê· ë“¤ ì €ì¥ 
+		System.out.println("â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– ");
+		System.out.println("\t\t\t\tì„±ì í‘œ");
 		System.out.println("\t--------------------------------------------------");
 		for(String t : title) {
 			System.out.print("\t"+t);
@@ -27,28 +27,27 @@ public class StudentTestMain2 {
 		System.out.println("\t--------------------------------------------------");
 		for(Student s : student) {
 			s.print();
-			//System.out.println(s.infoString()); // ÇÑ°´Ã¼¾¿ Ãâ·Â
 			tot[0] += s.getKor(); // tot[0] = tot[0] + s.getKor()
 			tot[1] += s.getEng();
 			tot[2] += s.getMat();
 			tot[3] += s.getTot();
 			tot[4] += s.getAvg();
 		}
-		for(int idx=0 ; idx<avg.length ; idx++) { // Æò±Õµé °è»ê
-			avg[idx] = tot[idx] / student.length;
-		}
+//		for(int idx=0 ; idx<avg.length ; idx++) { // í‰ê· ë“¤ ê³„ì‚°
+//			avg[idx] = tot[idx] / student.length;
+//		}
 		System.out.println("\t--------------------------------------------------");
-		System.out.print("\tÃÑÁ¡");
-		for(int idx=0 ; idx<avg.length ; idx++) { // Æò±Õµé °è»ê
+		System.out.print("\tì´ì ");
+		for(int idx=0 ; idx<avg.length ; idx++) { // í‰ê· ë“¤ ê³„ì‚°
 			avg[idx] = tot[idx] / student.length;
 			System.out.print("\t "+tot[idx]);
 		}
-		System.out.print("\n\tÆò±Õ");
+		System.out.print("\n\tí‰ê· ");
 		for(double a : avg) {
 			System.out.print("\t"+a);
 		}
 		System.out.println();
-		System.out.println("¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á");
+		System.out.println("â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– ");
 		
 	}
 }
