@@ -6,7 +6,7 @@ public class Quiz4 {
 			for(int j=2 ; j<10 ; j++) {
 				System.out.printf("%d*%d=%2d  ", j, i, j*i);
 			}
-			System.out.println();//°³Çà
+			System.out.println();//ê°œí–‰
 		}
 	}
 }

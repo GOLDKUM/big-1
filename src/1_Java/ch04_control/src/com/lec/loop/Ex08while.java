@@ -1,17 +1,17 @@
 package com.lec.loop;
-// i°¡ 1ÀÏ ¶§ ´©ÀûÇÕÀº XÀÌ´Ù(i°¡ 1~10±îÁö)
+// iê°€ 1ì¼ ë•Œ ëˆ„ì í•©ì€ Xì´ë‹¤(iê°€ 1~10ê¹Œì§€)
 public class Ex08while {
 	public static void main(String[] args) {
 		int i=1;
 		int sum = 0;
 		while(i<=10) {
 			sum += i; // sum = sum+i;
-//			System.out.println("i°¡ "+i+"ÀÏ ¶§ ´©ÀûÇÕÀº "+sum+"ÀÌ´Ù");
-			System.out.printf("i°¡ %dÀÏ ¶§ ´©ÀûÇÕÀº %dÀÌ´Ù\n",i, sum);
+//			System.out.println("iê°€ "+i+"ì¼ ë•Œ ëˆ„ì í•©ì€ "+sum+"ì´ë‹¤");
+			System.out.printf("iê°€ %dì¼ ë•Œ ëˆ„ì í•©ì€ %dì´ë‹¤\n",i, sum);
 			++i;
 		}
 		for(int j=1 ; j<=10 ; j++) {
-			System.out.printf("i°¡ %dÀÏ ¶§ ´©ÀûÇÕÀº %dÀÌ´Ù\n",i, sum);
+			System.out.printf("iê°€ %dì¼ ë•Œ ëˆ„ì í•©ì€ %dì´ë‹¤\n",i, sum);
 		}
 	}
 }

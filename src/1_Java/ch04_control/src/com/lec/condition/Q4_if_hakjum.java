@@ -5,20 +5,20 @@ import java.util.Scanner;
 public class Q4_if_hakjum {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
-		System.out.print("Á¡¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
+		System.out.print("ì ìˆ˜ë¥¼ ì…ë ¥í•˜ì„¸ìš” : ");
 		int jumsu = scanner.nextInt();
 		if(jumsu>=90 && jumsu <=100) {
-			System.out.println("AÇĞÁ¡ÀÔ´Ï´Ù");
+			System.out.println("Aí•™ì ì…ë‹ˆë‹¤");
 		}else if(jumsu>=80 && jumsu<90) {
-			System.out.println("BÇĞÁ¡ÀÔ´Ï´Ù");
+			System.out.println("Bí•™ì ì…ë‹ˆë‹¤");
 		}else if(jumsu>=70 && jumsu<80) {
-			System.out.println("CÇĞÁ¡ÀÔ´Ï´Ù");
+			System.out.println("Cí•™ì ì…ë‹ˆë‹¤");
 		}else if(jumsu>=60 && jumsu<70) {
-			System.out.println("DÇĞÁ¡ÀÔ´Ï´Ù");
+			System.out.println("Dí•™ì ì…ë‹ˆë‹¤");
 		}else if(jumsu >=0 && jumsu<60){
-			System.out.println("FÇĞÁ¡ÀÔ´Ï´Ù");
+			System.out.println("Fí•™ì ì…ë‹ˆë‹¤");
 		}else {
-			System.out.println("¶¼³¢");
+			System.out.println("ë–¼ë¼");
 		}
 		scanner.close();
 	}

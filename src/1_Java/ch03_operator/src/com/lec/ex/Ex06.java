@@ -1,5 +1,5 @@
 package com.lec.ex;
-// ´ëÀÔ(ÇÒ´ç)¿¬»êÀÚ : =, +=, -=, *=, /=, %=,...
+// ëŒ€ì…(í• ë‹¹)ì—°ì‚°ì : =, +=, -=, *=, /=, %=,...
 public class Ex06 {
 	public static void main(String[] args) {
 		int n1 = 10*3;

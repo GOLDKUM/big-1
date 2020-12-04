@@ -10,6 +10,6 @@ public class TodayEx1 {
 		for(int temp : arr) {
 			tot += temp;
 		}
-		System.out.println("¹è¿­¿¡ ´ã±ä °ªµéÀÇ ÇÕÀº "+tot);
+		System.out.println("ë°°ì—´ì— ë‹´ê¸´ ê°’ë“¤ì˜ í•©ì€ "+tot);
 	}
 }

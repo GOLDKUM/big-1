@@ -1,18 +1,18 @@
 package com.lec.question;
 import java.util.Scanner;
-// ÀÔ·ÂÇÑ µÎ¼ö¸¦ ºñ±³¿¬»êÀÚµé(°°´Ù, Å©´Ù, ÀÛ´Ù, Å©°Å³ªÀÛ´Ù, ÀÛ°Å³ª°°´Ù, ´Ù¸£´Ù)À» ÀÌ¿ëÇÏ¿©,
-//    ºñ±³ÇÑ °á°ú°¡  true¸é O, false¸é X¸¦ Ãâ·ÂÇÏ½Ã¿ä
+// ì…ë ¥í•œ ë‘ìˆ˜ë¥¼ ë¹„êµì—°ì‚°ìë“¤(ê°™ë‹¤, í¬ë‹¤, ì‘ë‹¤, í¬ê±°ë‚˜ì‘ë‹¤, ì‘ê±°ë‚˜ê°™ë‹¤, ë‹¤ë¥´ë‹¤)ì„ ì´ìš©í•˜ì—¬,
+//    ë¹„êµí•œ ê²°ê³¼ê°€  trueë©´ O, falseë©´ Xë¥¼ ì¶œë ¥í•˜ì‹œìš”
 public class Q3 {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
-		System.out.print("Ã¹¹øÂ° ¼ö : ");
+		System.out.print("ì²«ë²ˆì§¸ ìˆ˜ : ");
 		int num1 = scanner.nextInt();
-		System.out.print("µÎ¹øÂ° ¼ö : ");
+		System.out.print("ë‘ë²ˆì§¸ ìˆ˜ : ");
 		int num2 = scanner.nextInt();
 		String result = num1 == num2 ? "0" :"X";
-		System.out.println("num1 == num2ÀÇ °á°ú´Â "+ result);
+		System.out.println("num1 == num2ì˜ ê²°ê³¼ëŠ” "+ result);
 		boolean result2 = num1 > num2;
-		System.out.println("num1 > num2ÀÇ °á°ú´Â "+ 
+		System.out.println("num1 > num2ì˜ ê²°ê³¼ëŠ” "+ 
 							( (result2==true)? "O":"X") );
 		scanner.close();
 	}

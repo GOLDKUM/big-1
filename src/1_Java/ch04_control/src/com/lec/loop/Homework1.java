@@ -1,5 +1,5 @@
 package com.lec.loop;
-//1ºÎÅÍ 20±îÁö Á¤¼ö Áß¿¡¼­ 2¿Í 3ÀÇ ¹è¼ö°¡ ¾Æ´Ñ ¼öÀÇ ÇÕ
+//1ë¶€í„° 20ê¹Œì§€ ì •ìˆ˜ ì¤‘ì—ì„œ 2ì™€ 3ì˜ ë°°ìˆ˜ê°€ ì•„ë‹Œ ìˆ˜ì˜ í•©
 public class Homework1 {
 	public static void main(String[] args) {
 		int tot = 0;

@@ -1,12 +1,12 @@
 package com.lec.question;
 import java.util.Scanner;
-// (¿¬½À¹®Á¦2) ÀÔ·ÂÇÑ ¼ö°¡ Â¦¼öÀÎÁö È¦¼öÀÎÁö Ãâ·Â
+// (ì—°ìŠµë¬¸ì œ2) ì…ë ¥í•œ ìˆ˜ê°€ ì§ìˆ˜ì¸ì§€ í™€ìˆ˜ì¸ì§€ ì¶œë ¥
 public class Q2 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		System.out.print("ÀÔ·ÂÇÒ ¼ö´Â ?");
+		System.out.print("ì…ë ¥í•  ìˆ˜ëŠ” ?");
 		int number = sc.nextInt();
-		System.out.println(number%2==0? "Â¦¼ö ÀÔ·ÂÇÏ½É":"È¦¼ö ÀÔ·ÂÇÏ½É");
+		System.out.println(number%2==0? "ì§ìˆ˜ ì…ë ¥í•˜ì‹¬":"í™€ìˆ˜ ì…ë ¥í•˜ì‹¬");
 		sc.close();
 	}
 }

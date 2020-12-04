@@ -5,7 +5,7 @@ public class Ex04for {
 		for(int i=15 ; i<51 ; i++) {
 			System.out.print(i+"\t");
 			if(i%5 == 4) {
-				System.out.println();//°³ÇàÃß°¡
+				System.out.println();//ê°œí–‰ì¶”ê°€
 			}//if
 		}//for
 	}

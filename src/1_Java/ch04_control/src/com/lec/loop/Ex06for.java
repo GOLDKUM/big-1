@@ -1,5 +1,5 @@
 package com.lec.loop;
-// loop¹®À» ÀÛ¼ºÇÒ ¶§´Â ¹«ÇÑ¹İº¹¹®¿¡ µé¾î°¡Áö ¾Êµµ·Ï ÁÖÀÇ
+// loopë¬¸ì„ ì‘ì„±í•  ë•ŒëŠ” ë¬´í•œë°˜ë³µë¬¸ì— ë“¤ì–´ê°€ì§€ ì•Šë„ë¡ ì£¼ì˜
 public class Ex06for {
 	public static void main(String[] args) {
 		int i=0;

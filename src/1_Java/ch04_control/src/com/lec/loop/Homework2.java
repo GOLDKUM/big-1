@@ -1,6 +1,6 @@
 package com.lec.loop;
 
-//µÎ ÁÖ»çÀ§ÀÇ ÇÕÀÌ 6ÀÎ °æ¿ì
+//ë‘ ì£¼ì‚¬ìœ„ì˜ í•©ì´ 6ì¸ ê²½ìš°
 public class Homework2 {
   public static void main(String[] args) {
 	for (int i = 1; i <= 6; i++) {

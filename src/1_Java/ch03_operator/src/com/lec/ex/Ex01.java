@@ -1,5 +1,5 @@
 package com.lec.ex;
-// »ê¼ú¿¬»êÀÚ (+,-,*,/,%³ª¸ÓÁö¿¬»ê)
+// ì‚°ìˆ ì—°ì‚°ì (+,-,*,/,%ë‚˜ë¨¸ì§€ì—°ì‚°)
 public class Ex01 {
 	public static void main(String[] args) {
 		int n1 = 33, n2=10;
@@ -17,13 +17,13 @@ public class Ex01 {
 		System.out.printf("%d %c %d = %.1f\n", n1, '/', n2, resultDouble);
 		result = n1 % n2;
 		System.out.printf("%d %c %d = %d\n", n1, '%', n2, result);
-		// ³ª¸ÓÁö ¿¬»êÀÚÀÇ ¾²ÀÓ»õ
+		// ë‚˜ë¨¸ì§€ ì—°ì‚°ìì˜ ì“°ì„ìƒˆ
 		if (n1%2==0)
-			System.out.println("Â¦¼ö");
+			System.out.println("ì§ìˆ˜");
 		else
-			System.out.println("È¦¼ö");
-	}// mainÇÔ¼ö ³¡
-}// class ³¡
+			System.out.println("í™€ìˆ˜");
+	}// mainí•¨ìˆ˜ ë
+}// class ë
 
 
 

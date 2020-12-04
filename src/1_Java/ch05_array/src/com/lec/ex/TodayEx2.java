@@ -12,6 +12,6 @@ public class TodayEx2 {
 				tot += arr[i][j];
 			}
 		}
-		System.out.println("¹è¿­¿¡ ÀúÀåµÈ °ªµéÀÇ ÇÕ°è´Â "+tot);
+		System.out.println("ë°°ì—´ì— ì €ì¥ëœ ê°’ë“¤ì˜ í•©ê³„ëŠ” "+tot);
 	}
 }

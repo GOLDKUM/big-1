@@ -1,5 +1,5 @@
 package com.lec.ex;
-// ´ÙÂ÷¿ø ¹è¿­
+// ë‹¤ì°¨ì› ë°°ì—´
 public class Ex04 {
 	public static void main(String[] args) {
 		int[][] test = { {10,20,30},

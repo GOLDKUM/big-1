@@ -1,13 +1,13 @@
 package com.lec.ex;
-// ³í¸®¿¬»êÀÚ(&& ; and, || ; or)
+// ë…¼ë¦¬ì—°ì‚°ì(&& ; and, || ; or)
 public class Ex04 {
 	public static void main(String[] args) {
 		int i=1, j=10, h=10;
 		
-		System.out.println("i<j || ++j>h ´Â "+ ((i<j) || (++j>h) ));
+		System.out.println("i<j || ++j>h ëŠ” "+ ((i<j) || (++j>h) ));
 		System.out.println("j="+j);
 		
-		System.out.println("i>j || ++j>h ´Â "+ ((i>j) || (++j>h) ));
+		System.out.println("i>j || ++j>h ëŠ” "+ ((i>j) || (++j>h) ));
 		System.out.println("j="+j);
 	}
 }

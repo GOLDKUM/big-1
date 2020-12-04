@@ -3,18 +3,18 @@ import java.util.Scanner;
 public class Ex10dowhile_randomNum {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
-		int lotto = (int)(Math.random()*45)+1; // ÄÄÇ»ÅÍ ·Î¶Ç ³­¼ö
-		int su; // »ç¿ëÀÚ¿¡°Ô ÀÔ·Â¹ŞÀº ¼ö¸¦ ÀúÀåÇÏ´Â º¯¼ö
+		int lotto = (int)(Math.random()*45)+1; // ì»´í“¨í„° ë¡œë˜ ë‚œìˆ˜
+		int su; // ì‚¬ìš©ìì—ê²Œ ì…ë ¥ë°›ì€ ìˆ˜ë¥¼ ì €ì¥í•˜ëŠ” ë³€ìˆ˜
 		do {
-			System.out.print("·Î¶Ç ¹øÈ£ ÇÑ°³¸¦ ¾Ë¾Æ¸ÂÃç º¸¼¼¿ä");
+			System.out.print("ë¡œë˜ ë²ˆí˜¸ í•œê°œë¥¼ ì•Œì•„ë§ì¶° ë³´ì„¸ìš”");
 			su = scanner.nextInt();
 			if(su>lotto) {
-				System.out.println(su+"º¸´Ù ÀÛÀº¼ö¸¦ µµÀüÇÏ¼¼¿ä");
+				System.out.println(su+"ë³´ë‹¤ ì‘ì€ìˆ˜ë¥¼ ë„ì „í•˜ì„¸ìš”");
 			}else if(su<lotto){
-				System.out.println(su+"º¸´Ù Å«¼ö¸¦ µµÀüÇÏ¼¼¿ä");
+				System.out.println(su+"ë³´ë‹¤ í°ìˆ˜ë¥¼ ë„ì „í•˜ì„¸ìš”");
 			}
 		}while(su!=lotto);
-		System.out.println("ÃàÇÏÃàÇÏ ¸ÂÃß¼Ì½À´Ï´Ù");
+		System.out.println("ì¶•í•˜ì¶•í•˜ ë§ì¶”ì…¨ìŠµë‹ˆë‹¤");
 	}
 }
 

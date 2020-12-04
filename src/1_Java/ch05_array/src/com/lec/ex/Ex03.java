@@ -1,5 +1,5 @@
 package com.lec.ex;
-// ¹è¿­ÀÇ º¹»ç
+// ë°°ì—´ì˜ ë³µì‚¬
 public class Ex03 {
 	public static void main(String[] args) {
 		int[] score = {10,20,30,40,50};

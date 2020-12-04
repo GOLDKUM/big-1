@@ -5,26 +5,26 @@ public class Homework3 {
 	int computer, you;
 	Scanner sc = new Scanner(System.in);
 	while(true) {
-	  System.out.print("°¡À§(0),¹ÙÀ§(1),º¸(2), Áß ÇÏ³ª(Á¾·á´Â -1) : ");
+	  System.out.print("ê°€ìœ„(0),ë°”ìœ„(1),ë³´(2), ì¤‘ í•˜ë‚˜(ì¢…ë£ŒëŠ” -1) : ");
 	  you = sc.nextInt();
 	  if(you==-1) {
 		  break;
 	  }
 	  computer = (int)(Math.random()*3);
 	  if(you >2 || you < -1) {
-	    System.out.println("°¡À§(0), ¹ÙÀ§(1), º¸(2)¸¦ Á¦´ë·Î ³»¼¼¿ä");
+	    System.out.println("ê°€ìœ„(0), ë°”ìœ„(1), ë³´(2)ë¥¼ ì œëŒ€ë¡œ ë‚´ì„¸ìš”");
 	  }else if((you+2)%3==computer) {
-		System.out.println("´ç½ÅÀº "+(you==0? "°¡À§":you==1? "¹ÙÀ§":"º¸"));
-		System.out.println("ÄÄÇ»ÅÍ´Â "+(computer==0? "°¡À§":computer==1? "¹ÙÀ§":"º¸"));
-		System.out.println("´ç½ÅÀÌ ÀÌ°å¾î¿ä");
+		System.out.println("ë‹¹ì‹ ì€ "+(you==0? "ê°€ìœ„":you==1? "ë°”ìœ„":"ë³´"));
+		System.out.println("ì»´í“¨í„°ëŠ” "+(computer==0? "ê°€ìœ„":computer==1? "ë°”ìœ„":"ë³´"));
+		System.out.println("ë‹¹ì‹ ì´ ì´ê²¼ì–´ìš”");
 	  }else if(you == computer) {
-		System.out.println("´ç½ÅÀº "+(you==0? "°¡À§":you==1? "¹ÙÀ§":"º¸"));
-		System.out.println("ÄÄÇ»ÅÍ´Â "+(computer==0? "°¡À§":computer==1? "¹ÙÀ§":"º¸"));
-		System.out.println("ºñ°å¾î¿ä");
+		System.out.println("ë‹¹ì‹ ì€ "+(you==0? "ê°€ìœ„":you==1? "ë°”ìœ„":"ë³´"));
+		System.out.println("ì»´í“¨í„°ëŠ” "+(computer==0? "ê°€ìœ„":computer==1? "ë°”ìœ„":"ë³´"));
+		System.out.println("ë¹„ê²¼ì–´ìš”");
 	  }else {
-		System.out.println("´ç½ÅÀº "+(you==0? "°¡À§":you==1? "¹ÙÀ§":"º¸"));
-		System.out.println("ÄÄÇ»ÅÍ´Â "+(computer==0? "°¡À§":computer==1? "¹ÙÀ§":"º¸"));
-		System.out.println("´ç½ÅÀÌ Á³¾î¿ä");
+		System.out.println("ë‹¹ì‹ ì€ "+(you==0? "ê°€ìœ„":you==1? "ë°”ìœ„":"ë³´"));
+		System.out.println("ì»´í“¨í„°ëŠ” "+(computer==0? "ê°€ìœ„":computer==1? "ë°”ìœ„":"ë³´"));
+		System.out.println("ë‹¹ì‹ ì´ ì¡Œì–´ìš”");
 	  }//if
 	}//while
 	sc.close();

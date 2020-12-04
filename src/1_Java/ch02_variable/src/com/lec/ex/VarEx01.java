@@ -1,13 +1,13 @@
 package com.lec.ex;
 public class VarEx01 {
 	public static void main(String[] args) {
-		int age = 49; // intÇü ageº¯¼ö¸¦ ¸Ş¸ğ¸®°ø°£¿¡ ¸¶·ÃÇÏ°í
-		              // ±× age¿¡ 26À» ´ã´Â´Ù(ÇÒ´ç).
-		String name = "Àåµ¿°Ç";
-		System.out.println(age+"»ì "+name+"¾¾");
-		System.out.println(age+"»ì "+name+"¾¾");
-		System.out.println(age+"»ì "+name+"¾¾");
-		System.out.println(age+"»ì "+name+"¾¾");
-		System.out.println(age+"»ì "+name+"¾¾");
+		int age = 49; // intí˜• ageë³€ìˆ˜ë¥¼ ë©”ëª¨ë¦¬ê³µê°„ì— ë§ˆë ¨í•˜ê³ 
+		              // ê·¸ ageì— 26ì„ ë‹´ëŠ”ë‹¤(í• ë‹¹).
+		String name = "ì¥ë™ê±´";
+		System.out.println(age+"ì‚´ "+name+"ì”¨");
+		System.out.println(age+"ì‚´ "+name+"ì”¨");
+		System.out.println(age+"ì‚´ "+name+"ì”¨");
+		System.out.println(age+"ì‚´ "+name+"ì”¨");
+		System.out.println(age+"ì‚´ "+name+"ì”¨");
 	}
 }

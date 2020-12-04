@@ -1,64 +1,64 @@
 package com.lec.condition;
 import java.util.Scanner;
-// »ç¿ëÀÚ·ÎºÎÅÍ °¡À§(0), ¹ÙÀ§(1), º¸(2) Áß ÀÔ·Â¹Ş°í,
-// ÄÄÇ»ÅÍµµ °¡À§(0)¹ÙÀ§(1)º¸(2) Áß ÇÏ³ª¸¦ ¼±ÅÃÇØ¼­ ½ÂÀÚ¸¦ Ãâ·Â
+// ì‚¬ìš©ìë¡œë¶€í„° ê°€ìœ„(0), ë°”ìœ„(1), ë³´(2) ì¤‘ ì…ë ¥ë°›ê³ ,
+// ì»´í“¨í„°ë„ ê°€ìœ„(0)ë°”ìœ„(1)ë³´(2) ì¤‘ í•˜ë‚˜ë¥¼ ì„ íƒí•´ì„œ ìŠ¹ìë¥¼ ì¶œë ¥
 public class Q3_if {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
-		System.out.println("°¡À§(0), ¹ÙÀ§(1), º¸(2) Áß ÇÏ³ª¸¦ ¼±ÅÃ :");
+		System.out.println("ê°€ìœ„(0), ë°”ìœ„(1), ë³´(2) ì¤‘ í•˜ë‚˜ë¥¼ ì„ íƒ :");
 		int you = scanner.nextInt();
 		if(you==0) {
-			System.out.println("°¡À§¸¦ ³»¼Ì³×");
+			System.out.println("ê°€ìœ„ë¥¼ ë‚´ì…¨ë„¤");
 		}else if(you==1) {
-			System.out.println("¹ÙÀ§¸¦ ³»¼Ì³×");
+			System.out.println("ë°”ìœ„ë¥¼ ë‚´ì…¨ë„¤");
 		}else if(you==2) {
-			System.out.println("º¸¸¦ ³»¼Ì³×");
+			System.out.println("ë³´ë¥¼ ë‚´ì…¨ë„¤");
 		}else {
-			System.out.println("¶¼³¢");
+			System.out.println("ë–¼ë¼");
 			System.exit(0);
 		}
 		scanner.close();
 		int computer = (int)(Math.random()*3);
 		if(computer==0) {
-			System.out.println("ÄÄÀº °¡À§¾ß");
+			System.out.println("ì»´ì€ ê°€ìœ„ì•¼");
 		}else if(computer==1) {
-			System.out.println("ÄÄÀº ¹ÙÀ§¾ß");
+			System.out.println("ì»´ì€ ë°”ìœ„ì•¼");
 		}else {
-			System.out.println("ÄÄÀº º¸¾ß");
+			System.out.println("ì»´ì€ ë³´ì•¼");
 		}
 		if((you +2 )%3 == computer) {
-			System.out.println("´ç½ÅÀÌ ÀÌ°å´Ù");
+			System.out.println("ë‹¹ì‹ ì´ ì´ê²¼ë‹¤");
 		}else if(you==computer) {
-			System.out.println("ºñ°å´Ù");
+			System.out.println("ë¹„ê²¼ë‹¤");
 		}else {
-			System.out.println("ÄÄÇ»ÅÍ°¡ ÀÌ°å´Ù.");
+			System.out.println("ì»´í“¨í„°ê°€ ì´ê²¼ë‹¤.");
 		}
 //		if(you==0) {
 //			if(computer==0) {
-//				System.out.println("ºñ°å´Ù");
+//				System.out.println("ë¹„ê²¼ë‹¤");
 //			}else if(computer==1) {
-//				System.out.println("ÄÄÇ»ÅÍ°¡ ½Â");
+//				System.out.println("ì»´í“¨í„°ê°€ ìŠ¹");
 //			}else {
-//				System.out.println("´ç½ÅÀÌ ½Â");
+//				System.out.println("ë‹¹ì‹ ì´ ìŠ¹");
 //			}
 //		}else if(you==1) {
 //			if(computer==0) {
-//				System.out.println("´ç½ÅÀÌ ½Â");
+//				System.out.println("ë‹¹ì‹ ì´ ìŠ¹");
 //			}else if(computer==1) {
-//				System.out.println("ºñ±è");
+//				System.out.println("ë¹„ê¹€");
 //			}else {
-//				System.out.println("ÄÄÇ»ÅÍ°¡ ½Â");
+//				System.out.println("ì»´í“¨í„°ê°€ ìŠ¹");
 //			}
 //		}else if(you==2) {
 //			if(computer==0) {
-//				System.out.println("ÄÄÇ»ÅÍ°¡ ½Â");
+//				System.out.println("ì»´í“¨í„°ê°€ ìŠ¹");
 //			}else if(computer==1) {
-//				System.out.println("´ç½ÅÀÌ ½Â");
+//				System.out.println("ë‹¹ì‹ ì´ ìŠ¹");
 //			}else {
-//				System.out.println("ºñ±è");
-//			}//computer if¹®
-//		}// you if¹®
-	}//mainÇÔ¼ö
+//				System.out.println("ë¹„ê¹€");
+//			}//computer ifë¬¸
+//		}// you ifë¬¸
+	}//mainí•¨ìˆ˜
 }//class
 
 

@@ -1,22 +1,22 @@
 package com.lec.question;
 import java.util.Scanner;
-// ±¹, ¿µ, ¼ö, ÃÑÁ¡, Æò±Õ
+// êµ­, ì˜, ìˆ˜, ì´ì , í‰ê· 
 public class Q5 {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
-		System.out.print("±¹¾îÁ¡¼ö´Â ?");
+		System.out.print("êµ­ì–´ì ìˆ˜ëŠ” ?");
 		int kor = scanner.nextInt();
-		System.out.print("¿µ¾îÁ¡¼ö´Â ?");
+		System.out.print("ì˜ì–´ì ìˆ˜ëŠ” ?");
 		int eng = scanner.nextInt();
-		System.out.print("¼öÇĞÁ¡¼ö´Â ?");
+		System.out.print("ìˆ˜í•™ì ìˆ˜ëŠ” ?");
 		int mat = scanner.nextInt();
-		int tot = kor + eng + mat; // ÃÑÁ¡
+		int tot = kor + eng + mat; // ì´ì 
 //		double avg = (double)tot / 3;
 		double avg = tot / 3.0;
-		System.out.printf("±¹¾î : %3d\n", kor);
-		System.out.printf("¿µ¾î : %3d\n", eng);
-		System.out.printf("¼öÇĞ : %3d\n", mat);
-		System.out.printf("ÃÑÁ¡ : %d\tÆò±Õ : %.2f\n", tot, avg);
+		System.out.printf("êµ­ì–´ : %3d\n", kor);
+		System.out.printf("ì˜ì–´ : %3d\n", eng);
+		System.out.printf("ìˆ˜í•™ : %3d\n", mat);
+		System.out.printf("ì´ì  : %d\tí‰ê·  : %.2f\n", tot, avg);
 		scanner.close();
 	}
 }

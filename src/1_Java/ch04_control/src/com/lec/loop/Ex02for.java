@@ -2,9 +2,9 @@ package com.lec.loop;
 // 1 + 2 + 3 + 4 + 5 + ... + 19 + 20 = 210
 public class Ex02for {
 	public static void main(String[] args) {
-		int tot = 0; // ´©ÀûÇÒ º¯¼ö
+		int tot = 0; // ëˆ„ì í•  ë³€ìˆ˜
 		for (int i = 1; i < 21; i++) {
-			// tot º¯¼ö¿¡ i°ªÀ» °è¼Ó ´©ÀûÇÏ°í "i + "³ª "i = "À» Ãâ·Â
+			// tot ë³€ìˆ˜ì— iê°’ì„ ê³„ì† ëˆ„ì í•˜ê³  "i + "ë‚˜ "i = "ì„ ì¶œë ¥
 			tot = tot + i;
 			if (i != 20) {
 				System.out.print(i + " + ");

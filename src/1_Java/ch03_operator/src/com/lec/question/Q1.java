@@ -3,9 +3,9 @@ import java.util.Scanner;
 public class Q1 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		System.out.print("Á¤¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä :");
+		System.out.print("ì •ìˆ˜ë¥¼ ì…ë ¥í•˜ì„¸ìš” :");
 		int i = sc.nextInt();
-		System.out.println(i%3==0? "3ÀÇ ¹è¼öÀÔ´Ï´Ù":"3ÀÇ ¹è¼ö°¡ ¾Æ´Õ´Ï´Ù");
+		System.out.println(i%3==0? "3ì˜ ë°°ìˆ˜ì…ë‹ˆë‹¤":"3ì˜ ë°°ìˆ˜ê°€ ì•„ë‹™ë‹ˆë‹¤");
 		sc.close();
 	}
 }

@@ -3,13 +3,13 @@ import java.util.Scanner;
 public class Q1_if {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
-		System.out.print("ÀÔ·ÂÇÏ½Ç ¼ö´Â ?");
+		System.out.print("ì…ë ¥í•˜ì‹¤ ìˆ˜ëŠ” ?");
 		int su = scanner.nextInt();
 		if(su>=0) {
-			System.out.println("Àı´ë°ªÀº "+su);
+			System.out.println("ì ˆëŒ€ê°’ì€ "+su);
 		}else {
-			System.out.println("Àı´ë°ªÀº "+(-1*su));
-//			System.out.println("Àı´ë°ªÀº "+(-su));
+			System.out.println("ì ˆëŒ€ê°’ì€ "+(-1*su));
+//			System.out.println("ì ˆëŒ€ê°’ì€ "+(-su));
 		}
 		scanner.close();
 	}

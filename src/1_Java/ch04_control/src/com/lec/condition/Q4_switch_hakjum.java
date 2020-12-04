@@ -4,22 +4,22 @@ import java.util.Scanner;
 public class Q4_switch_hakjum {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
-		System.out.print("Á¡¼ö´Â ?");
+		System.out.print("ì ìˆ˜ëŠ” ?");
 		int score = scanner.nextInt();
 		int temp = score==100 ? score-1 : score;
 		switch(temp/10) {
 		case 9:
-			System.out.println("AÇĞÁ¡"); break;
+			System.out.println("Aí•™ì "); break;
 		case 8: 
-			System.out.println("BÇĞÁ¡"); break;
+			System.out.println("Bí•™ì "); break;
 		case 7: 
-			System.out.println("CÇĞÁ¡"); break;
+			System.out.println("Cí•™ì "); break;
 		case 6: 
-			System.out.println("DÇĞÁ¡"); break;
+			System.out.println("Dí•™ì "); break;
 		case 5: case 4: case 3: case 2: case 1: case 0:
-			System.out.println("FÇĞÁ¡");break;
+			System.out.println("Fí•™ì ");break;
 		default:
-			System.out.println("À¯È¿ÇÏÁö ¾Ê´Â Á¡¼öÀÔ´Ï´Ù");
+			System.out.println("ìœ íš¨í•˜ì§€ ì•ŠëŠ” ì ìˆ˜ì…ë‹ˆë‹¤");
 		}
 		scanner.close();
 	}

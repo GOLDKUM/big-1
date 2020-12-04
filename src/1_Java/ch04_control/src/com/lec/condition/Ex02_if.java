@@ -4,13 +4,13 @@ public class Ex02_if {
 	public static void main(String[] args) {
 		int seoulLunchPrice = 8000;
 		if(seoulLunchPrice>7000) {
-			System.out.println("¼­¿ï ¹ä °ª ºñ½Î³×");
+			System.out.println("ì„œìš¸ ë°¥ ê°’ ë¹„ì‹¸ë„¤");
 		}else if(seoulLunchPrice >= 6000) {
-			System.out.println("¹¹ Àç·á°ª ¸¸Å­ÀÌ³×");
+			System.out.println("ë­ ì¬ë£Œê°’ ë§Œí¼ì´ë„¤");
 		}else if(seoulLunchPrice>=4000) {
-			System.out.println("¼­¿ï¹ä°ª ±¦Âú³×");
+			System.out.println("ì„œìš¸ë°¥ê°’ ê´œì°®ë„¤");
 		}else {
-			System.out.println("¾î ½Ä´ç ÁÖÀÎÀº ±¦ÂúÀ»±î?");
+			System.out.println("ì–´ ì‹ë‹¹ ì£¼ì¸ì€ ê´œì°®ì„ê¹Œ?");
 		}
 	}
 }

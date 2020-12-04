@@ -1,30 +1,30 @@
 package com.lec.ex;
 public class Ex01 {
 	public static void main(String[] args) {
-		int i = 10; // º¯¼öÀÇ ¼±¾ð°ú ÃÊ±âÈ­
-		int[] iArr = {10,20,30,40,50}; // 1. ¹è¿­ º¯¼ö ¼±¾ð°ú ÃÊ±âÈ­
-		iArr[1] = 200; // ¹è¿­Àº index·Î Á¢±Ù (index:0~4)
-		for(int idx=0 ; idx<5 ; idx++) { // ÀÏ¹Ýfor¹®
+		int i = 10; // ë³€ìˆ˜ì˜ ì„ ì–¸ê³¼ ì´ˆê¸°í™”
+		int[] iArr = {10,20,30,40,50}; // 1. ë°°ì—´ ë³€ìˆ˜ ì„ ì–¸ê³¼ ì´ˆê¸°í™”
+		iArr[1] = 200; // ë°°ì—´ì€ indexë¡œ ì ‘ê·¼ (index:0~4)
+		for(int idx=0 ; idx<5 ; idx++) { // ì¼ë°˜forë¬¸
 			System.out.println(iArr[idx]);
 		}
-		int[] iArr2 = new int[5];//2. ¹è¿­ º¯¼ö ¼±¾ð°ú ¹è¿­¸Þ¸ð¸® °ø°£ È®º¸
+		int[] iArr2 = new int[5];//2. ë°°ì—´ ë³€ìˆ˜ ì„ ì–¸ê³¼ ë°°ì—´ë©”ëª¨ë¦¬ ê³µê°„ í™•ë³´
 		iArr2[0] = 999;
-		for(int idx=0 ; idx<iArr2.length ; idx++) { // ÀÏ¹Ý for¹®
-			System.out.println(idx+"¹øÂ°°ª : "+iArr2[idx]);
+		for(int idx=0 ; idx<iArr2.length ; idx++) { // ì¼ë°˜ forë¬¸
+			System.out.println(idx+"ë²ˆì§¸ê°’ : "+iArr2[idx]);
 		}
 		System.out.println("***********************");
-		int[] iArr3;// 3. ¹è¿­ º¯¼ö ¼±¾ð
+		int[] iArr3;// 3. ë°°ì—´ ë³€ìˆ˜ ì„ ì–¸
 		iArr3 = new int[5];// 0 0 0 0 0
-		for(int temp : iArr3) {//È®Àåfor¹®À¸·Î °ªº¯°æ(X)
+		for(int temp : iArr3) {//í™•ìž¥forë¬¸ìœ¼ë¡œ ê°’ë³€ê²½(X)
 			temp = 10;
 		}
-		for(int temp : iArr3) {// È®Àå for¹®
+		for(int temp : iArr3) {// í™•ìž¥ forë¬¸
 			System.out.println(temp);
 		}
 		for(int idx=0; idx<iArr3.length ; idx++) {
-			iArr3[idx] = 10;//ÀÏ¹Ýfor¹®À¸·Î °ª º¯°æ(O)
+			iArr3[idx] = 10;//ì¼ë°˜forë¬¸ìœ¼ë¡œ ê°’ ë³€ê²½(O)
 		}
-		for(int temp : iArr3) {// È®Àå for¹®
+		for(int temp : iArr3) {// í™•ìž¥ forë¬¸
 			System.out.println(temp);
 		}
 	}

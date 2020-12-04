@@ -1,33 +1,33 @@
 package com.lec.condition;
 import java.util.Scanner;
-//ÇöÀç ¸î ¿ù ÀÎÁö¸¦ Å°º¸µå·ÎºÎÅÍ ÀÔ·Â ¹Ş¾Æ °èÀıÀ» Ãâ·ÂÇÏ´Â ÇÁ·Î±×·¥À» ±¸ÇöÇÏ¼¼¿ä
+//í˜„ì¬ ëª‡ ì›” ì¸ì§€ë¥¼ í‚¤ë³´ë“œë¡œë¶€í„° ì…ë ¥ ë°›ì•„ ê³„ì ˆì„ ì¶œë ¥í•˜ëŠ” í”„ë¡œê·¸ë¨ì„ êµ¬í˜„í•˜ì„¸ìš”
 public class Q5 {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
-		System.out.print("Áö±İ ¸î¿ùÀÌ¿©¿ä ?");
+		System.out.print("ì§€ê¸ˆ ëª‡ì›”ì´ì—¬ìš” ?");
 		int month = scanner.nextInt();
 		switch (month) {
 		case 12:case 1: case 2:
-			System.out.println("ÀÔ·ÂÇÏ½Å °³¿ùÀº °Ü¿ïÀÌ±º¿ä.");break;
+			System.out.println("ì…ë ¥í•˜ì‹  ê°œì›”ì€ ê²¨ìš¸ì´êµ°ìš”.");break;
 		case 3:case 4: case 5:
-			System.out.println("ÀÔ·ÂÇÏ½Å °³¿ùÀº º½ÀÌ±º¿ä.");break;
+			System.out.println("ì…ë ¥í•˜ì‹  ê°œì›”ì€ ë´„ì´êµ°ìš”.");break;
 		case 6:case 7: case 8:
-			System.out.println("ÀÔ·ÂÇÏ½Å °³¿ùÀº ¿©¸§ÀÌ±º¿ä.");break;
+			System.out.println("ì…ë ¥í•˜ì‹  ê°œì›”ì€ ì—¬ë¦„ì´êµ°ìš”.");break;
 		case 9:case 10: case 11:
-			System.out.println("ÀÔ·ÂÇÏ½Å °³¿ùÀº °¡À»ÀÌ±º¿ä.");break;
+			System.out.println("ì…ë ¥í•˜ì‹  ê°œì›”ì€ ê°€ì„ì´êµ°ìš”.");break;
 		default:
-			System.out.println("¶¼³¢");
+			System.out.println("ë–¼ë¼");
 		}
 		if(month==12 || month==1 || month==2) {
-			System.out.println("ÀÔ·ÂÇÏ½Å °³¿ùÀº °Ü¿ïÀÌ±º¿ä.");
+			System.out.println("ì…ë ¥í•˜ì‹  ê°œì›”ì€ ê²¨ìš¸ì´êµ°ìš”.");
 		}else if(month==3 || month==4 || month==5) {
-			System.out.println("ÀÔ·ÂÇÏ½Å °³¿ùÀº º½ÀÌ±º¿ä.");
+			System.out.println("ì…ë ¥í•˜ì‹  ê°œì›”ì€ ë´„ì´êµ°ìš”.");
 		}else if(month==6 || month==7 || month==8) {
-			System.out.println("ÀÔ·ÂÇÏ½Å °³¿ùÀº ¿©¸§ÀÌ±º¿ä.");
+			System.out.println("ì…ë ¥í•˜ì‹  ê°œì›”ì€ ì—¬ë¦„ì´êµ°ìš”.");
 		}else if(month==9 || month==10 || month==11) {
-			System.out.println("ÀÔ·ÂÇÏ½Å °³¿ùÀº °¡À»ÀÌ±º¿ä.");
+			System.out.println("ì…ë ¥í•˜ì‹  ê°œì›”ì€ ê°€ì„ì´êµ°ìš”.");
 		}else {
-			System.out.println("¶¼³¢");
+			System.out.println("ë–¼ë¼");
 		}
 	}
 }

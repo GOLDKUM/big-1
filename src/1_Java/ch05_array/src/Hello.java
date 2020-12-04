@@ -1,4 +1,4 @@
-// java Hello È«±æµ¿ ¼³Çö
+// java Hello í™ê¸¸ë™ ì„¤í˜„
 public class Hello {
 	public static void main(String[] args) {
 		System.out.println("Hello ");
