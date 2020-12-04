@@ -1,10 +1,10 @@
 package com.lec.ex2_parking;
-
 public class Parking {
 	private String no;
 	private int inTime;
 	private int outTime;
 	private int fee;
+	private final int HOURLYRATE = 2000; //상수
 	public Parking(String no, int inTime) {
 		this.no = no; this.inTime = inTime;
 		System.out.println(no+"님 어서오세요");
@@ -13,7 +13,7 @@ public class Parking {
 	}
 	public void out(int outTime) {
 		this.outTime = outTime;
-		fee = (outTime-inTime) * 2000;
+		fee = (outTime-inTime) * HOURLYRATE;
 		System.out.println(no+"님 안녕히 가세요");
 		System.out.println("입차시간 : "+ inTime +"시");
 		System.out.println("출차시간 : "+ outTime +"시");
